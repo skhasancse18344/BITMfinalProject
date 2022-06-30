@@ -1,0 +1,160 @@
+.navbar .nav-item{
+    padding-left: 1em;
+}
+
+.navbar .nav-item .nav-link{
+    text-transform: uppercase;
+}
+
+.navbar{
+    background: #000;
+}
+
+.carousel-item{
+    height: 450px;
+  
+}
+
+
+.carousel-img-1{
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+
+}
+
+.carousel-img-2{
+    background-image: url("../img/preview_Typing_dark_03_Videvo.jpg");
+    background-size: cover;
+
+}
+
+.carousel-img-3{
+    background-image: url("../img/image3.jpeg");
+    background-size: cover;
+
+}
+.container h1{
+    font-family: 'Squada One', cursive;
+}
+
+#homeicon .fa{
+    font-size: 40px;
+}
+
+#getstarted{
+    position: relative;
+    background: url("../img/pc.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+#getstarted .dark-overlay{
+    background: rgba(0, 0, 0, 0.54);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#home-video{
+    position: relative;
+    background: url("../img/people.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+#home-video .dark-overlay{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#home-video .dark-overlay .fa{
+    font-size: 50px;
+    color: #ff0000;
+}
+
+#gallery img{
+    min-height: 250px;
+}
+
+#copyright{
+    background: black;
+}
+
+#page-header{
+    background: url("../img/preview_Typing_dark_03_Videvo.jpg");
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+}
+#page-header h1 {
+	padding-top: 100px;
+    font-family: 'Squada One', cursive;
+}
+
+#about-info img{
+    width: 350px;
+    height: 350px;
+}
+
+#icon-boxes .fa{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#testimonial .slick-prev::before{
+    color: #000;
+}
+
+#testimonial .slick-next::before{
+    color: #000;
+}
+
+#services-header{
+    background: url("../img/preview_Typing_dark_03_Videvo.jpg");
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+}
+.blog-head{
+    margin-top: 25px;
+}
+
+#services-header h1{
+    padding-top: 100px;
+}
+.rashid{
+	font-size: smaller;
+}
+.mokdum{
+	padding: 0 15px;;
+}
+
+@media screen and (max-width: 767px){
+    .navbar .nav-item{
+        padding-left: 0em;
+    }
+    #getstarted{
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .carousel .h2{
+        font-size: 2.5rem;
+    }
+
+    #getstarted{
+        min-height: 400px;
+    }
+}
+
